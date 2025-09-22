@@ -1,0 +1,143 @@
+
+
+body {
+  font-family: monospace;
+  font-size: large;
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../../img/kali-bg.png");
+  background-size: cover;
+  color:aliceblue
+}
+
+.terminal {
+  height: 70%;
+  width: 90%;
+  min-width: 350px;
+  min-height: 200px;
+  left: 5%;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(24, 24, 24, 0.61);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  border-radius: 5px;
+  resize: both;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 70%;
+  min-width: 40%;
+
+  border-radius: 5px;
+}
+
+.terminal-bar {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border-bottom: #0000 5px solid;
+  align-items: center;
+  cursor: grab;
+}
+
+.title {
+  margin-right: auto;
+  margin-left: 5px;
+  color: white;
+  font-family: monospace;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.control {
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+}
+
+.control svg path {
+  stroke: rgb(241, 241, 241);
+}
+
+.x:hover {
+  background-color: red;
+}
+
+.s:hover {
+  background-color: gray;
+}
+
+.terminal-input {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+
+  div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.user-comment {
+  margin-top: 20px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-div {
+  display: grid;
+  grid-template-columns: auto 8fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.user-command {
+  width: 95%;
+  border: none;
+  font-family: monospace;
+  color: rgb(134, 0, 0);
+  font-size: large;
+  touch-action: none;
+  caret-color: transparent;
+  background: transparent;
+}
+
+.red {
+  color: red;
+}
+
+.purple {
+  color: rgb(135, 42, 182);
+}
+
+.blue {
+  color: rgb(84, 170, 255);
+}
+
+.green {
+  color: greenyellow;
+}
+
+span {
+  white-space: nowrap;
+}
+
+.user-command:focus {
+  outline: none;
+}

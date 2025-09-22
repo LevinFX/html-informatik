@@ -1,0 +1,18 @@
+- [x] start
+- [x] contract
+- [x] prep
+- [x] recon
+- [x] network_scanned
+- [x] phishing
+- [x] trap detected
+- [x] trace chace
+- [ ] neutral end
+- [ ] exploit path db
+- [ ] exploit path fw
+- [ ] decrypt_files
+- [ ] double_cross
+- [ ] ai_guard
+- [ ] captured_end
+- [ ] escape_success
+- [ ] neutral_end
+- [x] epilogue

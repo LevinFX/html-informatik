@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DETECTED</title>
+<link href="../css/styles.css" rel="stylesheet">
+<link href="../css/components/card.css" rel="stylesheet">
+<link href="../css/components/bigselection.css" rel="stylesheet">
+<link href="../css/components/storytext.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="card" style="margin: auto; width: 91%; text-align: center;">
+        <h2>DU WURDEST ERWISCHT</h2>
+        <p>Deine Netzwerkaktivität sieht verdächtig aus. Was tust du nun?</p>
+        <br>
+        </p>
+    </div>
+    <div class="bigselec">
+        <button onclick="location.href = './trace_chase.html'" style="width: 60vh;">
+            OPSEC verbessern und erneut versuchen
+            <br>
+            <progress value="10" max="100"></progress>
+            <p style="font-size: small;">Risikolevel 1/10</p>
+
+        </button>
+        <button onclick="location.href = './end/captured_end.html'" style="width: 60vh">
+            Ignoriere die Warnung
+            <br>
+            <progress value="90" max="100"></progress>
+            <p style="font-size: small;">Risikolevel 9/10</p>
+        </button>
+    </div>
+</body>
+</html>
