@@ -46,8 +46,7 @@ PORT     STATE SERVICE    VERSION
 |_http-title: NovaDyne - Internal Portal
 443/tcp  open   ssl/https  Generic TLS (Cert: issued to nova-internal)
 3306/tcp open   mysql      MySQL 5.7 (banner truncated)
-3389/tcp open   ms-wbt-server Microsoft Terminal Services (RDP) - restricted
-8080/tcp open   http-proxy Jetty (admin console hidden)
+8443/tcp  open  ssl/http      NovaDyne Secure Firewall (management)
 
 Host script results:
 |_clock-skew: 0s
