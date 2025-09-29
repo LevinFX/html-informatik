@@ -6,7 +6,8 @@
 <link href="../css/components/card.css" rel="stylesheet">
 <link href="../css/components/bigselection.css" rel="stylesheet">
 <link href="../css/components/storytext.css" rel="stylesheet">
-
+<script src="../js/state.js"></script>
+<script src="../js/debugger.js"></script>
 </head>
 <body>
     <div class="card" style="margin: auto; width: 91%; text-align: center;">
@@ -17,18 +18,19 @@
     </div>
     <div class="bigselec">
 
-        <button onclick="location.href = './recon_start.html'">
+        <button id="phishing">
             Phishing
         </button>
-        <button onclick="location.href = './recon_start.html'">
+        <button id="zeroDay">
             Zero Day
         </button>
-        <button onclick="location.href = './recon_start.html'">
-            Insider Package
+        <button id="opsec">
+            OPSEC
         </button>
     </div>
     <div class="storytext">
         <p>Du hast dich dafür entschieden, den Auftrag anzunehmen. Nun fängst du erstmal mit der Planung an.</p>
     </div>
+    <script src="../js/selector/tools.js"></script>
 </body>
 </html>
