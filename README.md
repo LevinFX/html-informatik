@@ -10,11 +10,11 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.ibb.co/Kj5gspNG/Screenshot-2025-09-30-221157.png" alt="project-screenshot" width="29%" height="400/">
+<img src="https://i.ibb.co/Kj5gspNG/Screenshot-2025-09-30-221157.png" alt="project-screenshot">
 
-<img src="https://i.ibb.co/gLpJxKNw/Screenshot-2025-09-30-221227.png" alt="project-screenshot" width="32%" height="400/">
+<img src="https://i.ibb.co/gLpJxKNw/Screenshot-2025-09-30-221227.png" alt="project-screenshot">
 
-<img src="https://i.ibb.co/YF3vsNtD/Screenshot-2025-09-30-221258.png" alt="project-screenshot" width="29%" height="400/">
+<img src="https://i.ibb.co/YF3vsNtD/Screenshot-2025-09-30-221258.png" alt="project-screenshot">
 
   
   
@@ -37,14 +37,8 @@ Es gibt mehrere Möglichkeiten:
 3. Spielen.  
 
 ### Option 2: GitHub Pages
-1. Projekt auf GitHub öffnen: [https://github.com/LevinFX/html-informatik](https://github.com/LevinFX/html-informatik)  
-2. Rechts auf **Deployments** klicken.  
-3. Den **GitHub Pages**-Link öffnen.  
+1. Projekt auf GitHub öffnen: [https://levinfx.github.io/html-informatik/abenteuer/html/index.html](https://levinfx.github.io/html-informatik/abenteuer/html/index.html)
 4. Spielen.  
-
-### Option 3: Gehostete Seite
-1. [https://levinjs.de](https://levinjs.de) öffnen.  
-2. Spielen.  
   
 <h2>💻 Gemacht mit</h2>
 
