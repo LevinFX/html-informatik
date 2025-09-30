@@ -1,24 +1,36 @@
-Ich habe Inspiration an dem Code von https://github.com/beekurt98/terminal-portfolio/tree/main genommen für das Terminal (Das Projekt verlangt nach HTML & CSS, nicht nach eigenem JS)
+# Projekt-Dokumentation
 
-https://patorjk.com/software/taag/
+Ich habe mich für das Terminal-Design vom folgenden Projekt inspirieren lassen:  
+[https://github.com/beekurt98/terminal-portfolio](https://github.com/beekurt98/terminal-portfolio)  
 
+Zusätzlich habe ich für ASCII-Art folgende Seite genutzt:  
+[https://patorjk.com/software/taag/](https://patorjk.com/software/taag/)
 
-Ich habe Angefangen mit der Planung von dem Projekt mit ChatGPT für die Story. Die Ausgabe von der LLM sieht man in der Datei STORY.md. 
-Alles ist selbst programmiert, es sei denn es ist in der folgenden Liste:
-- meistes des JavaScript 
-- teile des CSS (bigmulsel component & teile von bigselection component)
-Bei diesen Segmenten habe ich mir hilfe von ChatGPT geholt
+---
 
-Um das Projekt auszuführen, MUSS man es als Server laufen lassen, als HTML Seite öffnen reicht nicht aus.
-Dafür gibt es mehrere Optionen:
-1.1 Five Server oder ähnliche VS Code Extension herunterladen
-1.2 Rechtklick auf /Abenteuer/html/index.html und auf "Open with Five Server"
-1.3 Spielen.
+## Planung
+Die Story des Projekts habe ich mithilfe von ChatGPT geplant.  
+Die generierte Ausgabe befindet sich in der Datei **STORY.md**.  
 
-2.1 Auf die Github Seite des Projekt gehen (https://github.com/LevinFX/html-informatik)
-2.2 Rechts auf Deployments
-2.3 Auf den github-pages Link gehen
-2.4 Spielen.
+**Alles ist selbst programmiert**, außer den folgenden Teilen:
+- Großteil des JavaScript  
+- Teile des CSS (Komponenten *bigmulsel* und *bigselection*)  
 
-3.1 Auf die von mir gehostete Seite (https://levinjs.de) gehen
-3.2 Spielen.
+Bei diesen Segmenten habe ich Unterstützung von ChatGPT verwendet.
+
+---
+
+## Ausführung
+Um das Projekt auszuführen, muss es **als Server** gestartet werden.  
+Ein einfaches Öffnen der `index.html`-Datei reicht **nicht** aus.  
+
+Es gibt mehrere Möglichkeiten:
+
+### Option 1: Lokale Ausführung mit VS Code
+1. Five Server (oder eine ähnliche VS Code-Extension) installieren.  
+2. Rechtsklick auf `/Abenteuer/html/index.html` → **Open with Five Server**.  
+3. Spielen.  
+
+### Option 2: GitHub Pages
+1. Projekt auf GitHub öffnen: [https://levinfx.github.io/html-informatik/abenteuer/html/index.html](https://levinfx.github.io/html-informatik/abenteuer/html/index.html)  
+2. Spielen.
