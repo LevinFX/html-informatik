@@ -1,0 +1,85 @@
+.progress-container {
+    width: 80%;
+    margin: 30px auto;
+    height: 30px;
+    background: rgba(31, 31, 31, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2);
+}
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, rgba(0,200,255,0.6), rgba(0,255,150,0.6));
+    box-shadow: 0 0 15px rgba(0, 200, 255, 0.8);
+    transition: width 0.3s ease-in-out;
+}
+
+.decrypt-btn, .continue-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: rgba(31, 31, 31, 0.7);
+    backdrop-filter: blur(5px);
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 10px 2px rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease-in-out;
+}
+.decrypt-btn:hover, .continue-btn:hover {
+    backdrop-filter: blur(20px);
+    transform: translateY(-4px);
+}
+.decrypt-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#status {
+    text-align: center;
+    font-size: large;
+    margin-top: 15px;
+    color: aliceblue;
+    opacity: 0.7;
+}
+
+#log {
+    width: 80%;
+    margin: 20px auto;
+    max-height: 200px;
+    overflow-y: auto;
+    background: rgba(31, 31, 31, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgba(200, 255, 255, 0.8);
+    font-family: monospace;
+    font-size: small;
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2);
+}
+#log p {
+    margin: 2px 0;
+}
+
+#files {
+    width: 80%;
+    margin: 20px auto;
+    background: rgba(31, 31, 31, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 15px;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: medium;
+    display: none;
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2);
+}
+#files ul {
+    list-style: none;
+    padding-left: 10px;
+}

@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<title>DECRYPT</title>
+<meta charset="utf-8" />
+<title>DECRYPT FILES</title>
 <link href="../css/styles.css" rel="stylesheet">
 <link href="../css/components/card.css" rel="stylesheet">
 <link href="../css/components/storytext.css" rel="stylesheet">
-
+<script src="../js/decrypt/decrypt.js" defer></script>
+<link href="../css/decrypt.css" rel="stylesheet">
 </head>
 <body>
-    <div class="card" style="margin: auto;">
-        <h2>DATEIN ENTSCHLÜSSELN</h2>
-        <p>Super! Du hast die Datein bekommen. Klicke auf DECRYPT um die Dateien zu entschlüsseln.
-        </p>
+    <div class="card" style="margin: auto; width: 80%;">
+        <h2>DATEIEN ENTSCHLÜSSELN</h2>
+        <p>Die verschlüsselten Daten werden entschlüsselt. Bitte warten...</p>
     </div>
 
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <p id="status">Bereit zum Entschlüsseln</p>
+    <button class="decrypt-btn" id="decryptBtn">Start</button>
+
+    <div id="log"></div>
+
+    <div id="files">
+        <h3>Entschlüsselte Dateien:</h3>
+        <ul>
+            <li>📄 mission_briefing.pdf</li>
+            <li>📄 coordinates.enc</li>
+            <li>📄 agent_list.csv</li>
+        </ul>
+    </div>
+
+    <button class="continue-btn" id="continueBtn" style="display:none;">Fortfahren</button>
 
 </body>
 </html>

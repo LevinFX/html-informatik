@@ -6,13 +6,13 @@
 - [x] phishing
 - [x] trap detected
 - [x] trace chace
-- [ ] neutral end
-- [ ] exploit path db
-- [ ] exploit path fw
-- [ ] decrypt_files
+- [X] neutral end
+- [X] exploit path db
+- [x] exploit path fw
+- [x] decrypt_files
 - [ ] double_cross
 - [ ] ai_guard
-- [ ] captured_end
-- [ ] escape_success
-- [ ] neutral_end
+- [x] captured_end
+- [x] escape_success
+- [x] neutral_end
 - [x] epilogue

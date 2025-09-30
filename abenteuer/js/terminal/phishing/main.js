@@ -82,7 +82,7 @@ function addComment() {
 [2025-09-18 21:33:16] [INFO] Saved session -> /tmp/zphisher_sessions/ session_20250918_213316.json
 
 [zphisher] session complete (mock). Clean up temporary files.
-</pre><br><h3><a href="./network_scanned.html">Klicke hier, um fortzufahren</a></h3></div>`;
+</pre><br><h3><a href="./decrypt_files.html">Klicke hier, um fortzufahren</a></h3></div>`;
             } else {
              commentsDiv.innerHTML += `<div><pre>[zphisher] loading template: nova-sso-dark
 [zphisher] creating temporary site -> https://auth-nova.sim/
