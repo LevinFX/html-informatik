@@ -1,26 +1,31 @@
-# Projekt-Dokumentation
+<h1 align="center" id="title">HTML PROJEKT</h1>
 
-Ich habe mich für das Terminal-Design vom folgenden Projekt inspirieren lassen:  
-[https://github.com/beekurt98/terminal-portfolio](https://github.com/beekurt98/terminal-portfolio)  
+<p align="center"><img src="https://socialify.git.ci/LevinFX/html-informatik/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
-Zusätzlich habe ich für ASCII-Art folgende Seite genutzt:  
-[https://patorjk.com/software/taag/](https://patorjk.com/software/taag/)
+<p id="description">Ein Projekt für den Informatikunterricht</p>
 
----
+<h2>🚀 Demo</h2>
 
-## Planung
-Die Story des Projekts habe ich mithilfe von ChatGPT geplant.  
-Die generierte Ausgabe befindet sich in der Datei **STORY.md**.  
+[https://levinfx.github.io/html-informatik/abenteuer/html/index.html](https://levinfx.github.io/html-informatik/abenteuer/html/index.html)
 
-**Alles ist selbst programmiert**, außer den folgenden Teilen:
-- Großteil des JavaScript  
-- Teile des CSS (Komponenten *bigmulsel* und *bigselection*)  
+<h2>Project Screenshots:</h2>
 
-Bei diesen Segmenten habe ich Unterstützung von ChatGPT verwendet.
+<img src="https://i.ibb.co/Kj5gspNG/Screenshot-2025-09-30-221157.png" alt="project-screenshot" width="29%" height="400/">
 
----
+<img src="https://i.ibb.co/gLpJxKNw/Screenshot-2025-09-30-221227.png" alt="project-screenshot" width="32%" height="400/">
 
-## Ausführung
+<img src="https://i.ibb.co/YF3vsNtD/Screenshot-2025-09-30-221258.png" alt="project-screenshot" width="29%" height="400/">
+
+  
+  
+<h2>🧐 Features:</h2>
+
+
+*   Verschiedene Enden
+*   Interresante Mechaniken
+
+<h2>🛠️ Installation Steps:</h2>
+
 Um das Projekt auszuführen, muss es **als Server** gestartet werden.  
 Ein einfaches Öffnen der `index.html`-Datei reicht **nicht** aus.  
 
@@ -32,5 +37,31 @@ Es gibt mehrere Möglichkeiten:
 3. Spielen.  
 
 ### Option 2: GitHub Pages
-1. Projekt auf GitHub öffnen: [https://levinfx.github.io/html-informatik/abenteuer/html/index.html](https://levinfx.github.io/html-informatik/abenteuer/html/index.html)  
-2. Spielen.
+1. Projekt auf GitHub öffnen: [https://github.com/LevinFX/html-informatik](https://github.com/LevinFX/html-informatik)  
+2. Rechts auf **Deployments** klicken.  
+3. Den **GitHub Pages**-Link öffnen.  
+4. Spielen.  
+
+### Option 3: Gehostete Seite
+1. [https://levinjs.de](https://levinjs.de) öffnen.  
+2. Spielen.  
+  
+<h2>💻 Gemacht mit</h2>
+
+
+*   HTML
+*   JavaScript
+*   CSS
+
+## Planung
+Die Story des Projekts habe ich mithilfe von ChatGPT geplant.  
+Die generierte Ausgabe befindet sich in der Datei **STORY.md**.  
+
+**Alles ist selbst programmiert**, außer den folgenden Teilen:
+- Großteil des JavaScript  
+- Teile des CSS (Komponenten *bigmulsel* und *bigselection*)  
+
+Bei diesen Segmenten habe ich die Unterstützung von ChatGPT verwendet.
+
+Hier ein Diagramm der Storystruktur (Ein paar Seiten Fehlen oder wurden hinzugefügt)
+![Visualationsdiagramm](./story.png)
